@@ -5,7 +5,15 @@ An Objective-C timer that restricts firing to a time range. If it's dismissed BE
 
 Developed for [Firehose](https://getfirehose.com) by [Mysterious Trousers](https://www.mysterioustrousers.com)
 
-### Example
+
+## Installation
+
+Using [CocoaPods](http://cocoapods.org), add this line to your Podfile:
+
+    pod "MTTimer"
+
+
+## Example
 
     @implementation FMRootWindowView {
     	MTTimer *_durationTimer;
@@ -63,3 +71,14 @@ Developed for [Firehose](https://getfirehose.com) by [Mysterious Trousers](https
     }
 
     @end
+
+
+## Contributing
+
+Please update and run the tests before submitting a pull request. Thanks.
+
+
+## Author
+
+[Adam Kirk](https://github.com/atomkirk) ([@atomkirk](https://twitter.com/atomkirk))
+
